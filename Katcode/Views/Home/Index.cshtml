@@ -1,0 +1,57 @@
+﻿@model HomeViewModel
+@using Katcode.ViewModels
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<header>
+	<div class="text-center">
+		<h1 class="display-4">Kat's Code Journey</h1>
+	</div>
+</header>
+
+<br />
+
+<main>
+	<div class="card-body">
+		<img src="~/images/cute.jpg" alt="Kat" width="250" height="250" id="prof-pic">
+		<h3 class="summary">
+			<img src="https://pixels.crd.co/assets/images/gallery37/6a856633.gif?v=379361a4" alt="mushroom" />
+			Kat Rice | 25
+			<img src="https://pixels.crd.co/assets/images/gallery37/6a856633.gif?v=379361a4" alt="mushroom" />
+			<br />
+			<img src="https://pixels.crd.co/assets/images/gallery109/40445bc5.gif?v=379361a4" alt="beans" />
+			Barista
+			<img src="https://pixels.crd.co/assets/images/gallery109/40445bc5.gif?v=379361a4" alt="beans" />
+			<br />
+			<img src="https://pixels.crd.co/assets/images/gallery70/fc0464af.gif?v=379361a4" alt="computer" />
+			Coder for fun
+			<img src="https://pixels.crd.co/assets/images/gallery70/fc0464af.gif?v=379361a4" alt="computer" />
+			<br />
+		</h3>
+		<p class="testingCode">
+			I am testing code here,
+			<br />
+			<em>please</em> don't tease me,
+			<br />
+			my dad works at Nintendo.
+		</p>
+	</div>
+
+	<br />
+	<br />
+	<br />
+	<a href="~/Logs/Update"><button type="button" class="btn btn-primary btn-lg shadow-none">New Log</button></a>
+
+	@foreach (Logs logs in Model.LogsList)
+	{
+		<p>@logs.CreatedDate.ToString("MM/dd/yyyy")</p>
+		<p>@logs.Body</p>
+		<div class='banner banner-@logs.LogsId'></div>
+	}
+	<br />
+	<br>
+</main>
+
+	

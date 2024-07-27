@@ -1,0 +1,169 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.display-4 {
+    font-weight: bold;
+}
+
+#prof-pic {
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.summary {
+    padding-left: 205px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.testingCode {
+    position: relative;
+    padding-left: 205px;
+    font-size: 20px;
+}
+
+.aboutMe {
+    text-align: center;
+    background-color: #f4f4f3;
+    background-size: 520px 410px;
+    border: none;
+    border-radius: 16px;
+    width: 90%;
+    margin: auto;
+}
+
+.card-body {
+    color: black;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 50%;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+* {
+    margin: 0
+}
+
+html {
+    background: gainsboro
+}
+
+body {
+    overflow-x: hidden
+}
+
+main {
+    margin: 0 auto;
+    padding: .875em .5em;
+    background: whitesmoke;
+    font: 1.25em/ 1.375 'Courier New', Courier, monospace;
+    * + *
+
+{
+    margin-top: 1.375em
+}
+
+}
+
+.banner {
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    height: 62.5vmin;
+    min-height: 15em;
+    background: linear-gradient(#000, transparent, #000), var(--img) 50%/ cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.banner.banner-3 {
+    background-image: url('../Images/mushy.jpg');
+    background-size: cover;
+}
+
+.banner.banner-4 {
+    background-image: url('../Images/evening.jpg');
+    background-size: cover;
+    }
+
+.banner.banner-5 {
+    background-image: url('../Images/leadneedle.jpg');
+    background-size: cover;
+    }
+    
+.banner.banner-8 {
+    background-image: url('../Images/beach.jpg');
+    background-size: cover;
+    }
+
+.banner.banner-9 {
+    background-image: url('../Images/coolkids.jpg');
+    background-size: cover;
+    }
+
+.banner.banner-10 {
+    background-image: url('../Images/tank.jpg');
+    background-size: cover;
+    }
+
+.banner.banner-11 {
+    background-image: url('../Images/plantkids.jpg');
+    background-size: cover;
+    }
+
+    .banner.banner-12 {
+        background-image: url('../Images/park.jpg');
+        background-size: cover;
+    }
+
+.banner-14 {
+    background-image: url('../Images/flamingo.jpg');
+    background-size: cover;
+}
+
+.banner-15 {
+    background-image: url('../Images/flowers.jpg');
+    background-size: cover;
+}
+
+.banner-18 {
+    background-image: url('../Images/pepper.jpg');
+    background-size: cover;
+}
+
+.btn {
+    margin-left: 45%;
+    color: black;
+    background-color: #bcccc8;
+    border: none;
+    box-shadow: none;
+}
+
+    .btn:hover {
+        background-color: black;
+        border: none;
+        box-shadow: none;
+    }
+
+    .btn:focus, .btn:active {
+        outline: none;
+        box-shadow: none;
+    }
